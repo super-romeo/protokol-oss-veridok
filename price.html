@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="https://protokol-oss.veridok.ru/price.html">
+<title>Цена — протокол общего собрания собственников</title>
+<meta name="description" content="Цена протокола общего собрания собственников МКД с приложениями: протокол по итогам голосования или полный пакет с подсчётом голосов.">
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+<script src="smoke.js" defer></script>
+<script>
+  /* Открыт экран цен — price_view через smoke.js (window.smokeTrack). */
+  document.addEventListener("DOMContentLoaded", function () { if (window.smokeTrack) window.smokeTrack("price_view"); });
+</script>
+</head>
+<body data-page="price">
+
+<header><div class="wrap">
+  <div class="logo"><a href="index.html" data-ev="click_logo_home">Протокол ОСС</a></div>
+  <nav class="top"><a href="index.html#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="index.html#primer" data-ev="click_nav_primer">Пример</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>Тариф и цена</h1>
+    <p class="sub">Повестка, реестр собственников, подсчёт голосов и протокол с приложениями для ГИС ЖКХ.</p>
+  </div>
+
+  <section id="cena">
+    <div class="grid">
+      <div class="card"><b>Протокол одного собрания</b><span>2 900 ₽ за собрание: протокол по итогам голосования и приложения к нему.</span><br><a class="btn" href="pay.html?plan=protokol" data-ev="payment_click click_pay_protokol">Оплатить — 2 900 ₽</a></div>
+      <div class="card"><b>Полный пакет до 200 помещений</b><span>19 900 ₽ за собрание: повестка, реестр, бюллетени, подсчёт голосов, протокол и приложения.</span><br><a class="btn" href="pay.html?plan=polnyj" data-ev="payment_click click_pay_polnyj">Оплатить — 19 900 ₽</a></div>
+    </div>
+    <p class="note nalog">Цены указаны без НДС.</p>
+    <p class="cta-note">Ранний доступ · Оплата на этой странице пока не принимается</p>
+    <div class="actions"><a class="btn" href="index.html" data-ev="click_back">Вернуться к описанию</a></div>
+  </section>
+</div>
+
+<footer><div class="wrap">
+  <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
+  <p class="muted">Протокол по внесённым вами данным. Не консультация юриста; за проведение собрания отвечает его инициатор.</p>
+</div></footer>
+
+</body>
+</html>
